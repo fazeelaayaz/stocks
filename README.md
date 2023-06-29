@@ -28,15 +28,15 @@ Create a file named config.py in the same directory as the script.
 
 In the config.py file, define the following variables with your API keys and Twilio account information:
 
-python
-Copy code
-API_KEY_STOCK = "YOUR_ALPHA_VANTAGE_API_KEY" (https://www.alphavantage.co/support/#api-key)
-API_KEY_NEWS = "YOUR_NEWSAPI_API_KEY"        (https://newsapi.org/)
-ACCOUNT_SID = "YOUR_TWILIO_ACCOUNT_SID"      (https://www.twilio.com/en-us)
-AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN"
-TWILIO_PHONE_NUMBER = "YOUR_TWILIO_PHONE_NUMBER"
-RECIPIENT_PHONE_NUMBER = "YOUR_RECIPIENT_PHONE_NUMBER"
-Make sure to replace the placeholders with your actual values.
+1. python
+2. Copy code
+3. API_KEY_STOCK = "YOUR_ALPHA_VANTAGE_API_KEY" (https://www.alphavantage.co/support/#api-key)
+4. API_KEY_NEWS = "YOUR_NEWSAPI_API_KEY"        (https://newsapi.org/)
+5. ACCOUNT_SID = "YOUR_TWILIO_ACCOUNT_SID"      (https://www.twilio.com/en-us)
+6. AUTH_TOKEN = "YOUR_TWILIO_AUTH_TOKEN"
+7. TWILIO_PHONE_NUMBER = "YOUR_TWILIO_PHONE_NUMBER"
+8. RECIPIENT_PHONE_NUMBER = "YOUR_RECIPIENT_PHONE_NUMBER"
+9. Make sure to replace the placeholders with your actual values.
 
 ### Run the script:
 
